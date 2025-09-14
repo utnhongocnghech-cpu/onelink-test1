@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Website with Deeplink</title>
+    <style>
+        body { font-family: Arial; max-width: 600px; margin: auto; padding: 20px; }
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="https://msbmbank.onelink.me/c1bo?af_xp=social&pid=magnet&deep_link_value=rewards&af_dp=msbmbank%3A%2F%2Fapplink&af_force_deeplink=true">Home (Deeplink)</a>
+        <a href="https://example.com/about">About Us</a>
+        <a href="myapp://profile">Profile (Deeplink)</a>
+        <a href="https://example.com/contact">Contact</a>
+    </nav>
+
+    <h1>Welcome to Our Website</h1>
+    <p>This is a website with some deeplink links embedded.</p>
+    <p>Try clicking the links with <code>myapp://</code> prefix to open the app (if installed).</p>
+
+</body>
+</html>
